@@ -5,7 +5,7 @@ function countDown(num) {
         console.log(num);
         setTimeout (function () {
             countDown(num - 1);
-        }, 1000)
+        }, 1000);
     }
 }
 
